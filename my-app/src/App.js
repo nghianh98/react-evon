@@ -1,6 +1,6 @@
 import "./App.css";
 import YoutubeList from "./components/Youtube/YoutubeList";
-import Toggle from "./components/state/Toggle";
+import Toggle from "./components/State/Toggle";
 
 function App() {
   const name = "nghianh98";
