@@ -1,10 +1,18 @@
 import React from "react";
 
-const Cell = ({ value, onClick }) => {
+// object destructuring
+// const student = {
+//   name: 'evondev',
+//   age: 28
+// };
+// const name = student.name;
+// const age = student.age;
+// const {name, age} = student;
+const Cell = ({ value, onClick, className }) => {
   // const { value, onClick } = props;
-  // not using props.value
+  // console.log(value, onClick);
   return (
-    <div className="game-cell" onClick={onClick}>
+    <div className={`game-cell ${className}`} onClick={onClick}>
       {value}
     </div>
   );
